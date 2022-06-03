@@ -1,0 +1,6 @@
+from  moviepy.editor import *
+
+
+clips = [VideoFileClip(r"C:\Users\flychen\Desktop\video\cut_label.avi"),VideoFileClip(r"C:\Users\flychen\Desktop\video\cut.avi"),VideoFileClip(r"C:\Users\flychen\Desktop\video\cut_real.avi")]
+video = clips_array([clips])
+video.write_videofile(r'C:\Users\flychen\Desktop\video\cut_final.mp4')
